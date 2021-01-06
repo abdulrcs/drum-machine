@@ -1,0 +1,70 @@
+@media only screen and (min-width: 1200px) {
+:root
+{
+    font-size: 1.25vw; 
+}
+}
+*
+{
+    margin: 0 auto;
+    font-family:"Roboto";
+}
+.header
+{
+    color:white;
+    position:fixed;
+    bottom:3vh;
+    font-family:"Source Sans Pro";
+    display:flex;
+    flex-direction:column;
+    i
+    {
+        padding:0.5vw;
+    }
+}
+main
+{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background:url("https://cdn.wallpapersafari.com/0/82/bCVUo4.jpg");
+    background-size:100vw;
+}
+p
+{
+    margin-top:2vh;
+}
+#display
+{
+    display:grid;
+    grid-template-columns: 7vw 7vw 7vw;
+    grid-template-rows: 7vw 7vw 7vw 2vw;
+    grid-gap:1vw;
+    background:linear-gradient(rgb(50, 51, 54),rgb(31, 31, 34));
+    padding:1vw;
+    border:0.5vw solid rgb(39, 39, 39);
+}
+.played
+{
+    background:white;
+    width:23vw;
+    text-align:center;
+}
+.drum-pad
+{
+    width:7vw;
+    height:7vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:red;
+    user-select: none;
+    border-radius:0.3vw;
+}
+a
+{
+    text-decoration:none;
+}

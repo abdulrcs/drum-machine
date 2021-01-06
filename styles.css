@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1200px) {
+  :root {
+    font-size: 1.25vw;
+  }
+}
+
+* {
+  margin: 0 auto;
+  font-family: "Roboto";
+}
+
+.header {
+  color: white;
+  position: fixed;
+  bottom: 3vh;
+  font-family: "Source Sans Pro";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header i {
+  padding: 0.5vw;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("https://cdn.wallpapersafari.com/0/82/bCVUo4.jpg");
+  background-size: 100vw;
+}
+
+p {
+  margin-top: 2vh;
+}
+
+#display {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7vw 7vw 7vw;
+      grid-template-columns: 7vw 7vw 7vw;
+  -ms-grid-rows: 7vw 7vw 7vw 2vw;
+      grid-template-rows: 7vw 7vw 7vw 2vw;
+  grid-gap: 1vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#323336), to(#1f1f22));
+  background: linear-gradient(#323336, #1f1f22);
+  padding: 1vw;
+  border: 0.5vw solid #272727;
+}
+
+.played {
+  background: white;
+  width: 23vw;
+  text-align: center;
+}
+
+.drum-pad {
+  width: 7vw;
+  height: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: red;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 0.3vw;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
